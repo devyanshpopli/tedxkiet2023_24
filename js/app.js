@@ -1,10 +1,11 @@
 import {lerp} from './utils.js'
 
+const main = document.querySelector('main');
 const video = document.querySelector('video');
 
 const videoSection = document.querySelector('#video');
 
-window.addEventListener('scroll', ()=>{
+main.addEventListener('scroll', ()=>{
             animateVideo()
 })
 
