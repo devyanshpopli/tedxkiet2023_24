@@ -1,7 +1,7 @@
-function lerp(start,end,t){
-    return start *(1-t)+end*t;
+function lerp(start, end, t){
+    return start * ( 1 - t ) + end * t;
 }
 
-export{
+export {
     lerp
 }
